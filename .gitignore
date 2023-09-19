@@ -1,0 +1,12 @@
+vendor
+.vs
+.vscode
+.idea
+.env
+.ps
+.ps1
+!.env.example
+docs/*
+.phpdoc
+phpdoc.dist.xml
+phpDocumentor.phar
