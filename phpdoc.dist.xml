@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor configVersion="3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.phpdoc.org">
+    <title>My MVC Framework</title>
+    <paths>
+        <output>docs</output>
+    </paths>
+    <version number="1.0">
+        <folder>latest</folder>
+        <api format="php">
+            <default-package-name>MyMVCFramework</default-package-name>
+            <source dsn=".">
+                <path>controllers</path>
+                <path>core</path>
+                <path>models</path>
+                <path>public</path>
+                <path>runtime</path>
+                <path>views</path>
+            </source>
+            <output>api</output>
+            <ignore hidden="true" symlinks="true">
+                <path>vendor/**/*</path>
+                <path>bin/**/*</path>
+                <path>migrations/**/*</path>
+            </ignore>
+            <extensions>
+                <extension>php</extension>
+                <extension>html</extension>
+                <extension>js</extension>
+                <extension>css</extension>
+            </extensions>
+            <markers>
+                <marker>TODO</marker>
+                <marker>FIXME</marker>
+            </markers>
+            <include-source>true</include-source>
+        </api>
+        <guide format="rst">
+            <source dsn=".">
+                <path>controllers</path>
+                <path>core</path>
+                <path>models</path>
+                <path>public</path>
+                <path>runtime</path>
+                <path>views</path>
+            </source>
+            <output>docs</output>
+        </guide>
+    </version>
+</phpdocumentor>
