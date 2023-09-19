@@ -1,0 +1,21 @@
+{
+    "name": "jesse/mvc_framework",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./",
+            "": "./vendor/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jesse Fender"
+        }
+    ],
+    "require-dev": {
+        "symfony/console": "^5.4"
+    },
+	"require": {
+		"ext-xdebug": "*"
+	}
+}
