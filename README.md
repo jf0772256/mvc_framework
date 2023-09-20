@@ -1,6 +1,6 @@
 # mvc framework
 mvc framework with command console
-This was written mainly from theCodeholic's version, and has deviated away from it partly due to Yoputube videos being out of order or me feeling like i could do it sooner, IOts a great series and will teach you much.
+This was written mainly from [TheCodeholic](https://github.com/thecodeholic/php-mvc-framework)'s version, and has deviated away from it partly due to [Youtube videos](https://www.youtube.com/thecodeholic) being out of order or me feeling like i could do it sooner, IOts a great series and will teach you much.
 
 
 I will accept and review pull requests if you want to fork and submit ways to better teh project - but note that there are many things that i am tinkering on to improve myself.
